@@ -1,0 +1,38 @@
+{
+    "name": "pawonpawon/kjoe",
+    "description": "A small CSV-backed PHP job queue for cron and shared hosting. No database or queue server.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "queue",
+        "csv",
+        "filesystem",
+        "cron",
+        "shared-hosting"
+    ],
+    "require": {
+        "php": "^7.3 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kjoe\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "@php tests/run.php",
+        "lint": "@php tests/lint.php",
+        "check": [
+            "@lint",
+            "@test"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": false
+    },
+    "homepage": "https://github.com/pawonpawon/kjoe",
+    "support": {
+        "issues": "https://github.com/pawonpawon/kjoe/issues",
+        "source": "https://github.com/pawonpawon/kjoe"
+    }
+}

@@ -1,0 +1,10 @@
+/vendor/
+/composer.lock
+/var/
+/.env
+/.env.*
+*.log
+*.csv
+*.lock
+*.tmp
+.DS_Store
